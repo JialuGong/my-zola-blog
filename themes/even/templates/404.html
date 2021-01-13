@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+
+{% block content %}
+<article class="post">
+    <header>
+        <h1>404: Page not found</h1>
+    </header>
+    <div class="content">
+        Sorry, this page doesn't seem to exist.<br>
+        Click to go back to  <a href="{{config.base_url}}">Home Page</a>
+    </div>
+</article>
+{% endblock content %}
