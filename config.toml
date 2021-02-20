@@ -19,7 +19,7 @@ theme="even"
 
 taxonomies = [
     # You can enable/disable RSS
-    {name = "categories", rss = true},
+   # {name = "categories", rss = true},
     {name = "tags", rss = true},
 ]
 
@@ -44,7 +44,7 @@ katex_auto_render = true
 # This is the default menu
 even_menu = [
     {url = "$BASE_URL", name = "Home"},
-    {url = "$BASE_URL/categories", name = "Categories"},
     {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "$BASE_URL/others", name = "Others"},
     {url = "$BASE_URL/about", name = "About"},
 ]

@@ -113,12 +113,16 @@
 
         <footer>
             <p>
+                {% block footer %}
+                {% endblock footer %}
+            </p>
+            <p style="margin-top:20px;padding-top:30px;">
                 © {{ config.title }} {{ now() | date(format="%Y") }}<br>
                 Authour <a target="_blank" href="https://fourstacks.codes">Huaiyu Gong</a>
                 <a href="https://github.com/JialuGong">&nbsp;&nbsp;
                     <img src="{{config.base_url}}/icons/github.svg" style="width: 24px;"/>
                 </a>
-                <a href="https://github.com/JialuGong">&nbsp;&nbsp;
+                <a href="https://www.zhihu.com/people/zero-13-83-95">&nbsp;&nbsp;
                     <img src="{{config.base_url}}/icons/zhihu.svg" style="width: 24px;" />
                 </a>
                 <a href="https://github.com/JialuGong">&nbsp;&nbsp;
@@ -130,10 +134,6 @@
                 <!--a target="_blank" href="https://github.com/jialugong"><span><iframe src="{{config.base_url}}/icons/github.svg"></iframe></span></a-->
                 <!-- Powered by <a target="_blank" href="https://getzola.com/">Zola</a>, Theme <a target="_blank"
                     href="https://github.com/zbrox/anpu-zola-theme"></a>. -->
-            </p>
-            <p>
-                {% block footer %}
-                {% endblock footer %}
             </p>
         </footer>
         </div>

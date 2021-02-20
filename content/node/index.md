@@ -3,7 +3,6 @@ title = "Node的事件循环浅析"
 date = 2021-01-02
 insert_anchor_links = "right"
 [taxonomies]
-categories = ["编程"]
 tags=["Node"]
 +++
 [TOC]

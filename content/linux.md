@@ -5,7 +5,6 @@ order = 1
 date = 2021-01-16
 insert_anchor_links = "right"
 [taxonomies]
-categories = ["编程"]
 tags=["linux"]
 +++
 
