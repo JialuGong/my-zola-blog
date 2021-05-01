@@ -45,6 +45,6 @@ katex_auto_render = true
 even_menu = [
     {url = "$BASE_URL", name = "Home"},
     {url = "$BASE_URL/tags", name = "Tags"},
-    {url = "$BASE_URL/others", name = "Others"},
+    {url = "$BASE_URL/readings", name = "Readings"},
     {url = "$BASE_URL/about", name = "About"},
 ]
