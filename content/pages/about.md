@@ -5,6 +5,4 @@ template = "about.html"
 +++
 
 ## About [Me](https://fourstacks.codes)
-I'm a senior student in NPU who major in SE,a front-end begginer and a rust-lang lover.The main goal of this blog is to record my learning path about CS.<br>
-You can find me on:<br>
-
+I'm a senior student who major in SE at NWPU,a front-end beginner and a rust-lang lover.The main goal of this blog is to record my learning notes about CS and what I am reading.
