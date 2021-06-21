@@ -1,5 +1,14 @@
 @import "normalize";
 
+html[theme="dark"]{
+  //TODO
+ 
+}
+html[theme="light"]{
+
+  //TODO
+}
+
 $theme-color-map: (
   'Default': #c05b4d #f8f5ec,
   'Mint Green': #16982B #f5f5f5,
