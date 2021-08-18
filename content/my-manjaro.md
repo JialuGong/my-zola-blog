@@ -2,6 +2,7 @@
 title= "my manjaro" 
 date=2020-04-21
 tags=["manjaro"]
+process = 0.333
 +++
 我的manjaro配置
 

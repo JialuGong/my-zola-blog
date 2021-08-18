@@ -11,6 +11,7 @@ I'm a senior student who major in SE at NWPU,a front-end beginner and a rust-lan
 Most used lang: JavaScript, rust(learning)
 
 Toy projects: 
+
 [a vuepress plugin](https://github.com/JialuGong/vuepress-plugin-progressive-image-loader)
 
 opal[WIP]
